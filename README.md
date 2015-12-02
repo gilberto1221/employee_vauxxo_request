@@ -8,6 +8,7 @@ last name VARCHAR(15)
 iddep INT, 
 CONTRAINT FK_EMPLOYEE_IDDEP FOREIGN KEY (iddep) REFERENCES employee_departament (id)
                       );
+                    
 CREATE TABLE employee_departament (
 id INT PRIMARY KEY NOT NULL,
 name VARCHAR(25),
